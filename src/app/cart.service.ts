@@ -23,6 +23,6 @@ clearCart(){
 }
 
 getShippingPrices(){
-  this.http.get("/assets/shipping.json")
+  return this.http.get("/assets/shipping.json")
 }
 }
